@@ -1,0 +1,171 @@
+#mistake {
+  height: 66px;
+}
+
+#imgw {
+  height: 100vh;
+  width: 100%;
+}
+
+/* #imgthara{
+
+    width: 100%;
+    height: 100vh;
+} */
+
+/* 
+---------------------------  home --------------- */
+
+#hoverli {
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid rgb(69, 100, 255);
+  box-shadow: 0px 0px 40px rgb(69, 118, 255);
+
+  border-radius: 10px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+#hoverli:hover {
+  background-color: rgb(255, 0, 136);
+  color: bisque;
+  transition: 0.5s;
+  border: 2px solid rgb(106, 210, 255);
+  box-shadow: 0px 0px 40px rgb(255, 255, 255);
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+#search {
+  border: 2px solid rgb(69, 100, 255);
+  box-shadow: 0px 0px 40px rgb(58, 41, 255);
+  font-weight: 500;
+  font-style: italic;
+}
+
+#forget {
+  background-image: url(./images/images6.png);
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 60px;
+  width: 100%;
+  height: 65vh;
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+
+#forget h1 {
+  width: 25%;
+  border: 1px solid rgb(119, 255, 0);
+  box-shadow: 0px 0px 40px rgb(58, 41, 255);
+  background-color: #18b7cd;
+  font-style: italic;
+  font-weight: 900;
+  padding: 20px;
+  border-radius: 9px;
+}
+
+#forget h1:hover {
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 40px rgb(246, 255, 0);
+  background-color: #00e1ff;
+  transition: 0.5s;
+  color: beige;
+}
+
+#not-warking-bootstrap {
+  width: 600px;
+  height: 400px;
+}
+
+@media (max-width: 1319px) {
+  .main {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #media-col-five {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #media-for-col-five {
+    display: flex !important;
+    flex-direction: column !important;
+    color: blue;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    width: 100%;
+    margin: 1px;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #media-for-col-five img {
+    width: 100%;
+    height: 50vh;
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+#musaddik-id {
+  display: flex;
+}
+
+/* ------------------------contract page---------------- */
+
+#contract {
+}
+#musaddik-id {
+  padding: 100px;
+}
+#formh13 {
+  background: linear-gradient(to left, rgb(124, 109, 211), rgb(119 255 170));
+  width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+
+  box-shadow: -10px -10px 30px rgb(0, 0, 0);
+  margin: 10%;
+}
+#formh13 input,
+textarea
+ {
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
+  padding: 20px;
+  width: 50vw;
+  box-shadow: -10px -10px 30px rgb(0, 0, 0);
+  border: none;
+  overflow: none;
+  outline: none;
+  margin: 10px;
+  color: aliceblue;
+}
+/* #formh13 button {
+ 
+} */
+#submit-dev{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
+    padding: 20px;
+    width: 50vw;
+    box-shadow: -10px -10px 30px rgb(0, 0, 0);
+    border: none;
+    overflow: none;
+    outline: none;
+    margin: 10px;
+    color: rgb(252, 252, 252);
+    background: #da66de;
+}
